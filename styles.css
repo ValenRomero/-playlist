@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+}
+
+.tabla{
+    text-align: center;
+}
+.imagenA{
+    background-size: cover;
+    background-position: left;
+    position: relative;
+    height: 100px;
+    width: 100px;
+}
