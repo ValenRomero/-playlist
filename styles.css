@@ -1,14 +1,39 @@
-h1{
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap');
+.cajaT{
+
     text-align: center;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Lato', sans-serif
+    
+}
+.caja{
+    height: 100px;
+    position: relative;
+    
 }
 
 .tabla{
+    margin: 0 auto;
     text-align: center;
+    font-family: 'Scheherazade New', serif;
 }
 .imagenA{
     background-size: cover;
-    background-position: left;
-    position: relative;
+    position:relative;
     height: 100px;
     width: 100px;
+   
 }
+body{
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%); 
+}
+
+
+
