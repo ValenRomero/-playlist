@@ -3,8 +3,10 @@
 .cajaT{
 
     text-align: center;
-    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
     font-family: 'Lato', sans-serif
+    
     
 }
 .caja{
@@ -34,6 +36,29 @@ body{
     background: rgb(255,255,255);
     background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%); 
 }
+
+.pin{
+    margin:0 15cm;
+    text-align: center;
+    background-color: blanchedalmond;
+    border-radius: 2cm;
+    border: black;
+}
+.baby{
+    margin:0 15cm;
+    text-align: center;
+    background-color: blanchedalmond;
+    border-radius: 2cm;
+    border: black;
+    margin-top: 4cm;
+}
+.tittle{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-family: 'Lato', sans-serif
+}
+
 
 
 
