@@ -3,7 +3,7 @@
 .cajaT{
 
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: white;
     font-size: 20px;
     font-family: 'Lato', sans-serif
     
@@ -17,6 +17,7 @@
 
 .tabla{
     margin: 0 auto;
+    color: white;
     text-align: center;
     font-family: 'Scheherazade New', serif;
 }
@@ -28,33 +29,39 @@
    
 }
 body{
+    background-image: url("imagenes/tigre.jpg");
     background-size: cover;
     position: relative;
     background-repeat: no-repeat;
     background-position: center;
-    height: 500px;
-    background: rgb(255,255,255);
-    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%); 
+    background-attachment: fixed;
+
+   
 }
 
 .pin{
     margin:0 15cm;
     text-align: center;
-    background-color: blanchedalmond;
     border-radius: 2cm;
-    border: black;
+    border: rgb(255, 255, 255);
+    color: white;
+    background: rgb(39,20,219);
+background: linear-gradient(90deg, rgba(39,20,219,0.5844538498993348) 75%, rgba(91,85,148,0.267927239255077) 100%, rgba(213,213,213,0.5116247182466737) 100%); 
 }
 .baby{
     margin:0 15cm;
     text-align: center;
+    color: white;
     background-color: blanchedalmond;
     border-radius: 2cm;
     border: black;
     margin-top: 4cm;
+    background: rgb(39,20,219);
+    background: linear-gradient(90deg, rgba(39,20,219,0.5844538498993348) 75%, rgba(91,85,148,0.267927239255077) 100%, rgba(213,213,213,0.5116247182466737) 100%); 
 }
 .tittle{
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: white;
     font-size: 25px;
     font-family: 'Lato', sans-serif
 }
